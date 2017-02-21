@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour {
 	
 	public void LeaveGame() {
 		Debug.Log("Leave request received.");
+		Application.Quit();
 	}
 	
 }
